@@ -1,0 +1,36 @@
+/*
+Theme Name: PB Simple theme
+Theme URI: http://pedrobachiega.com
+Description: Just a simple theme to use as framework
+Author: Pedro Bachiega
+Version: 0.1
+*/
+
+/* Structure */
+html, body {
+	text-align:center;
+}
+#wrapper {
+	width:80%;
+	margin:0 auto;
+	text-align:left;
+	border-left:1px dashed #dddddd;
+	border-right:1px dashed #dddddd;
+	color:#666;
+}
+
+#wrapper > header, #wrapper > section, #wrapper > footer { padding:5px; }
+#wrapper > header, #wrapper > footer { clear:both; }
+#wrapper > header { border-bottom:1px dashed #dddddd; }
+#wrapper > footer { border-top:1px dashed #dddddd; }
+#wrapper > #content {
+	width:63%;
+	float:left;
+}
+#wrapper > #sidebar {
+	width:32%;
+	float:right;
+}
+
+/* Layout */
+hr { border-style:dashed; border-color:#dddddd; }
